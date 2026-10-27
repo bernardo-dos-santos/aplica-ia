@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Segredos e dados pessoais (nunca vão para o Git)
+.env
+perfil.yaml
+curriculos/
+data/
+
+# Banco local
+*.db
+*.sqlite3
+
+# Playwright (perfil persistente do navegador, capturas)
+.browser-profile/
+screenshots/
+
+# Editor / SO
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,46 @@
+# Modelo do perfil. Copie para `perfil.yaml` (fora do Git) e preencha com seus dados.
+# A IA só pode usar o que estiver neste arquivo: nunca inventa experiência.
+
+name: Fulano de Tal
+email: fulano@example.com
+phone: "+55 49 99999-0000"
+city: Lages
+state: SC
+
+links:
+  github: https://github.com/fulano
+  linkedin: https://www.linkedin.com/in/fulano
+
+summary: >
+  Estudante de Ciência da Computação com experiência em automação de processos
+  usando Python, SQL e Google Apps Script.
+
+education:
+  - institution: Instituto Federal Exemplo
+    course: Ciência da Computação
+    start: "2025-03"
+    expected_end: "2028-12"
+    current_term: 4
+
+experience:
+  - organization: Prefeitura Exemplo
+    role: Estagiário de automação de processos
+    start: "2026-06"
+    end: null  # null = atual
+    highlights:
+      - Gerador de documentos em HTML a partir de planilhas
+      - Fluxo de dados do Google Sheets para dashboard no Looker Studio
+      - Extensão de navegador para agilizar um sistema interno
+      - Envio automático de e-mails de status
+    skills: [Python, SQL, Google Apps Script]
+
+skills: [Python, SQL, Google Apps Script, Git, HTML, JavaScript]
+languages: [Português (nativo), Inglês (intermediário)]
+
+preferences:
+  job_types: [internship]
+  areas: [desenvolvimento de software, automação de processos]
+  work_modes: [remote, hybrid, onsite]   # remote | hybrid | onsite
+  shifts: [afternoon]                    # morning | afternoon | evening | flexible
+  onsite_cities: [Lages/SC]
+  salary_expectation: null
